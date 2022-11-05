@@ -4,16 +4,15 @@ from prompt import string
 def main_actions(condition, lst, answers):
     print('Welcome to the Brain Games!')
     name = string('May I have your name? ')
-    print(f'Hello, {name}!')
-    print(f'{condition}')
+    print(f'Hello, {name}!\n{condition}')
     for i, item in enumerate(lst):
         answ = string(f'Question: {item}\nYour answer: ')
         if answ.lower().strip() == answers[i]:
             print('Correct!')
         else:
             print(f"{answ} is wrong answer ;(."
-                  f"Correct answer was {answers[i]}.")
-            print(f"Let's try again, {name}!")
+                  f" Correct answer was {answers[i]}."
+                  f"Let's try again, {name}!")
             break
-    if i == 3:
+    if answ.lower().strip() == answers[i]:
         print(f'Congratulations, {name}!')
