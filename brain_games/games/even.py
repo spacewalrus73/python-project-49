@@ -16,11 +16,15 @@ def is_even():
     return condition, lst, answers
 
 # Func send the data to func in module engine
+
+
 def push():
     condition, lst, answers = is_even()
     main_actions(condition, lst, answers)
 
 # Old code
+
+
 '''def is_even():
     print('Welcome to the Brain Games!')
     name = string('May I have your name? ')
