@@ -15,7 +15,7 @@ def is_even():
             answers.append('no')
     return condition, lst, answers
 
-# Func send the data to func in mudule engine
+# Func send the data to func in module engine
 def push():
     condition, lst, answers = is_even()
     main_actions(condition, lst, answers)
