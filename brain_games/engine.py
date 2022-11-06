@@ -5,17 +5,19 @@ from prompt import string
 
 
 def main_actions(condition, lst, answers):
-    print('Welcome to the Brain Games!')
-    name = string('May I have your name? ')
+
+    name = string('Welcome to the Brain Games!\nMay I have your name? ')
+
     print(f'Hello, {name}!\n{condition}')
+
     for i, item in enumerate(lst):
-        answ = string(f'Question: {item}\nYour answer: ')
-        if answ.lower().strip() == answers[i]:
+        user_answer = string(f'Question: {item}\nYour answer: ')
+        if user_answer.lower().strip() == answers[i]:
             print('Correct!')
         else:
-            print(f"{answ} is wrong answer ;(."
-                  f" Correct answer was {answers[i]}."
-                  f"Let's try again, {name}!")
+            print(f"'{user_answer}' is wrong answer ;(."
+                  f" Correct answer was '{answers[i]}'."
+                  f" Let's try again, {name}!")
             break
-    if answ.lower().strip() == answers[i]:
-        print(f'Congratulations, {name}!')
+        if user_answer.lower().strip() == answers[i] and i == 2:
+            print(f'Congratulations, {name}!')
