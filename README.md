@@ -4,3 +4,4 @@
 
 video how brain-even works: 'https://asciinema.org/a/d95VfUCy797tji8U3E4eiTyMq'
 video how brain-calc works: 'https://asciinema.org/a/hr6NdFBhvQFR4rRpfGqWGZy82'
+video how brain-gcd works: 'https://asciinema.org/a/Maw1njSyRx2FuDzTf13vrN4yl'
