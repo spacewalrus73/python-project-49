@@ -2,7 +2,7 @@ from random import randint
 from brain_games.engine import main_actions
 
 
-# Func makes progressions, replace 1 symbol in it to '..',
+# Func makes progressions, replace 1 symbol in it to . .,
 # and append this number to answers
 def making_progression():
     condition = 'What number is missing in the progression?'
