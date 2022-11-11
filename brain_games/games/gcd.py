@@ -5,7 +5,7 @@ from brain_games.engine import main_actions
 
 # Func append in lists correct answers and random numbers
 def to_find_gcd():
-    condition = 'Find the greatest common divisor of given numbers'
+    condition = 'Find the greatest common divisor of given numbers.'
     lst = []
     answers = []
     len_lists = 3
