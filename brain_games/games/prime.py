@@ -21,3 +21,5 @@ def is_prime():
 def push():
     condition, lst, answers = is_prime()
     main_actions(condition, lst, answers)
+
+push()
