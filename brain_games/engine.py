@@ -7,7 +7,7 @@ def main_actions(condition, lst, answers):
     name = string('Welcome to the Brain Games!\nMay I have your name? ')
     print(f'Hello, {name}!\n{condition}')
     for i, item in enumerate(lst):
-        user_answer = string(f'Question: {item}\nYour answer: ')
+        user_answer = string(f"Question: {item}\nYour answer: ")
         if user_answer.lower().strip() == answers[i]:
             print('Correct!')
         else:
