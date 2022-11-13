@@ -1,5 +1,4 @@
 from random import shuffle
-from sympy.ntheory import isprime
 from brain_games.engine import main_actions
 
 
@@ -9,9 +8,14 @@ def is_prime():
     answers = []
     numbers_list = list(range(2, 100))
     shuffle(numbers_list)
-    for num in range(3):
+    len_lists = 3
+    for num in range(len_lists):
         lst.append(numbers_list[num])
-        if isprime(numbers_list[num]) is True:
+        counter = 0
+        for i in range(2, numbers_list[num] // 2 + 1):
+            if (numbers_list[num] % i == 0):
+                counter += 1
+        if (counter == 0):
             answers.append('yes')
         else:
             answers.append('no')
