@@ -3,14 +3,13 @@ from brain_games.engine import main_actions
 
 
 # Func makes progressions, replace 1 symbol in it to . .,
-# and append this number to answers
+# and append this number to answers.
 def making_progression():
     condition = 'What number is missing in the progression?'
     lst = []
     answers = []
     LEN_LISTS = 3
     index = 0
-
     while index < LEN_LISTS:
         start = randint(1, 10)
         stop = randint(25, 30)
