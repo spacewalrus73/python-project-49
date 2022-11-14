@@ -1,10 +1,20 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Mind Games is a set of five console games based on popular mobile brain training apps."
 authors = ["Daniil Balabanov <spacewalrus@bk.ru>"]
 readme = "README.md"
 packages = [{include = "brain_games"}]
+repository = "https://github.com/spacewalrus73/python-project-49"
+classifiers = [
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3.10",
+    "Environment :: Console",
+    "Topic :: Education",
+    "Topic :: Games/Entertainment",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Terminals"
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
