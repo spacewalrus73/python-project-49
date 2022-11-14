@@ -8,12 +8,12 @@ def to_calc():
     lst = []
     answers = []
     numbers_list = []
-    numbers_len = 6
+    NUMBERS_LEN = 6
     operands = [' + ', ' - ', ' * ']
 
     shuffle(operands)
 
-    for i in range(numbers_len):
+    for i in range(NUMBERS_LEN):
         numbers_list.append(randint(1, 100))
 
     counter_for_operands = 0

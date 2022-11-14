@@ -8,10 +8,10 @@ def to_find_gcd():
     condition = 'Find the greatest common divisor of given numbers.'
     lst = []
     answers = []
-    len_lists = 3
+    LEN_LISTS = 3
     index = 1
 
-    while index <= len_lists:
+    while index <= LEN_LISTS:
         number_1 = randint(1, 100)
         number_2 = randint(1, 100)
         answers.append(str(gcd(number_1, number_2)))

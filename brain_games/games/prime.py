@@ -7,18 +7,24 @@ def is_prime():
     lst = []
     answers = []
     numbers_list = list(range(2, 100))
+    LEN_LISTS = 3
+
     shuffle(numbers_list)
-    len_lists = 3
-    for num in range(len_lists):
-        lst.append(numbers_list[num])
+
+    for item in range(LEN_LISTS):
+        selected_num = numbers_list[item]
+        lst.append(selected_num)
         counter = 0
-        for i in range(2, numbers_list[num] // 2 + 1):
-            if (numbers_list[num] % i == 0):
+        for number in range(2, selected_num // 2 + 1):
+            if (selected_num % number == 0):
                 counter += 1
-        if (counter == 0):
+                break
+
+        if counter == 0:
             answers.append('yes')
         else:
             answers.append('no')
+
     return condition, lst, answers
 
 

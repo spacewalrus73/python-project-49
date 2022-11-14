@@ -7,8 +7,8 @@ def is_even():
     condition = 'Answer "yes" if the number is even, otherwise answer "no".'
     lst = []
     answers = []
-    len_lists = 3
-    for num in range(len_lists):
+    LEN_LISTS = 3
+    for num in range(LEN_LISTS):
         lst.append(randint(1, 50))
         if lst[num] % 2 == 0:
             answers.append('yes')

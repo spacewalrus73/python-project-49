@@ -8,10 +8,10 @@ def making_progression():
     condition = 'What number is missing in the progression?'
     lst = []
     answers = []
-    len_lists = 3
+    LEN_LISTS = 3
     index = 0
 
-    while index < len_lists:
+    while index < LEN_LISTS:
         start = randint(1, 10)
         stop = randint(25, 30)
         step = randint(2, 4)
