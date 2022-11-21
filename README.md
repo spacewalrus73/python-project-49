@@ -13,10 +13,10 @@ Wrong answers end the game and offer to play it again. Games:
 - Definition of a prime number.
 ---
 ### *System requirements*  
-
 OS: Linux, Windows, MacOS.  
 Processor: x32 or better.  
-RAM: 512 Mb or more.
+RAM: 512 Mb or more.  
+
 ---
 ### *Installation*
 1) You have to be installed Python (preferably python 3.10) and pip;  
