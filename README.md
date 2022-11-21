@@ -12,7 +12,8 @@ Wrong answers end the game and offer to play it again. Games:
 - Finding the greatest common divisor;
 - Definition of a prime number.
 ---
-### *System requirements*
+### *System requirements*  
+
 OS: Linux, Windows, MacOS.  
 Processor: x32 or better.  
 RAM: 512 Mb or more.
@@ -43,10 +44,5 @@ this command will download the project and install it.
 ![](https://github.com/spacewalrus73/Gifs/blob/master/progress.gif)
 - how brain-prime works:  
 ![](https://github.com/spacewalrus73/Gifs/blob/master/prime.gif)
----
-### Examples
-- how brain-calc works: 'https://asciinema.org/a/hr6NdFBhvQFR4rRpfGqWGZy82'
-- how brain-gcd works: 'https://asciinema.org/a/Maw1njSyRx2FuDzTf13vrN4yl'
-- how brain-progression works: 'https://asciinema.org/a/YJD2rgGdISETty7L8cr6eE5RY'
-- how brain-prime works: 'https://asciinema.org/a/536967'
+
 
