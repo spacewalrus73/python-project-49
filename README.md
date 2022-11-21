@@ -30,6 +30,7 @@ this command will download the project and install it.
 4) If the commands doesn't work you can try `python` instead of `python3`; 
 5) After this you can use the short commands to launch the games:
 - brain-even/calc/gcd/progression/prime.  
+
 ---
 ### *Examples*
 - how brain-even works:  
@@ -42,3 +43,10 @@ this command will download the project and install it.
 ![](https://github.com/spacewalrus73/Gifs/blob/master/progress.gif)
 - how brain-prime works:  
 ![](https://github.com/spacewalrus73/Gifs/blob/master/prime.gif)
+---
+### Examples
+- how brain-calc works: 'https://asciinema.org/a/hr6NdFBhvQFR4rRpfGqWGZy82'
+- how brain-gcd works: 'https://asciinema.org/a/Maw1njSyRx2FuDzTf13vrN4yl'
+- how brain-progression works: 'https://asciinema.org/a/YJD2rgGdISETty7L8cr6eE5RY'
+- how brain-prime works: 'https://asciinema.org/a/536967'
+
