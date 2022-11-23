@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-from brain_games.games.prime import push
+from brain_games.engine import prime_game
 
 
 def main():
-    push()
+    prime_game()

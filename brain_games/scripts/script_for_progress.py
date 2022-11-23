@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-from brain_games.games.progression import push
+from brain_games.engine import progression_game
 
 
 def main():
-    push()
+    progression_game()
