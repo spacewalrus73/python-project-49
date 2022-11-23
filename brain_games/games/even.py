@@ -1,23 +1,11 @@
 from random import randint
-from brain_games.engine import main_actions
+from brain_games.games_modules import even_module
 
 
-# Func make lists and append in it numbers and correct answers
-def is_even():
-    condition = 'Answer "yes" if the number is even, otherwise answer "no".'
-    lst = []
-    answers = []
-    LEN_LISTS = 3
-    for num in range(LEN_LISTS):
-        lst.append(randint(1, 50))
-        if lst[num] % 2 == 0:
-            answers.append('yes')
-        else:
-            answers.append('no')
-    return condition, lst, answers
-
-
-# Func send data to func in module engine
-def push():
-    condition, lst, answers = is_even()
-    main_actions(condition, lst, answers)
+def generating_even():
+    number = randint(1, 50)
+    if even_module.is_even(number) is True:
+        answer = 'yes'
+    else:
+        answer = 'no'
+    return number, answer
