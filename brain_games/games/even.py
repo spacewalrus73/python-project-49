@@ -1,11 +1,21 @@
 from random import randint
-from brain_games.games_modules import even_module
 
 
-def generating_even():
-    number = randint(1, 50)
-    if even_module.is_even(number) is True:
+RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
+NUMBER_OF_ROUNDS = 3
+
+
+def generating_game():
+    expression = randint(1, 50)
+    if is_even(expression) is True:
         answer = 'yes'
     else:
         answer = 'no'
-    return number, answer
+    return expression, answer
+
+
+def is_even(expression):
+    if expression % 2 == 0:
+        return True
+    else:
+        return False
