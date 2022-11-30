@@ -1,6 +1,6 @@
 from random import randint
 
-NUMBER_OF_ROUNDS = 3
+
 RULES = 'What number is missing in the progression?'
 
 

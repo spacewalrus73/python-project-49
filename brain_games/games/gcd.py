@@ -3,7 +3,7 @@ from math import gcd
 
 
 RULES = 'Find the greatest common divisor of given numbers.'
-NUMBER_OF_ROUNDS = 3
+
 
 
 def generating_game():

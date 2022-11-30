@@ -2,7 +2,7 @@ from random import randint
 
 
 RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
-NUMBER_OF_ROUNDS = 3
+
 
 
 def generating_game():

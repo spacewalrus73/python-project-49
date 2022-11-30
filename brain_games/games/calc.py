@@ -3,7 +3,7 @@ from random import randint
 
 RULES = 'What is the result of the expression?'
 LIST_OF_OPERANDS = [' + ', ' - ', ' * ']
-NUMBER_OF_ROUNDS = 3
+
 
 
 def generating_game():
