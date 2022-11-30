@@ -1,7 +1,9 @@
 from prompt import string
 from brain_games.cli import welcome_user
 
+
 GENERATE_ROUND = 3
+
 
 def engine(game_module):
     user_name = welcome_user()

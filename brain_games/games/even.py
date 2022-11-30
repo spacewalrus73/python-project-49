@@ -4,7 +4,6 @@ from random import randint
 RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-
 def generating_game():
     expression = randint(1, 50)
     if is_even(expression) is True:

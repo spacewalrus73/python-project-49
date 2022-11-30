@@ -5,7 +5,6 @@ from math import gcd
 RULES = 'Find the greatest common divisor of given numbers.'
 
 
-
 def generating_game():
     number_1 = randint(1, 100)
     number_2 = randint(1, 100)

@@ -5,7 +5,6 @@ RULES = 'What is the result of the expression?'
 LIST_OF_OPERANDS = [' + ', ' - ', ' * ']
 
 
-
 def generating_game():
     number_1 = randint(1, 25)
     number_2 = randint(1, 25)
