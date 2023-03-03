@@ -23,11 +23,11 @@ RAM: 512 Mb or more.
 2) Run the command in terminal:   
 `python3 -m pip install --user git+https://github.com/spacewalrus73/python-project-49`  
 this command will download the project and install it.   
-![](https://github.com/spacewalrus73/Gifs/blob/master/withpip.gif)
+![](https://github.com/spacewalrus73/Gifs/blob/master/gif_1prj/withpip.gif)
 3) Or if you have connected Git you can use:  
 `git clone https://github.com/spacewalrus73/python-project-49` - and then:  
 `python3 -m pip install .` - from root of the directory of the project.  
-![](https://github.com/spacewalrus73/Gifs/blob/master/withgit.gif)
+![](https://github.com/spacewalrus73/Gifs/blob/master/gif_1prj/withgit.gif)
 4) If the commands doesn't work you can try `python` instead of `python3`; 
 5) After this you can use the short commands to launch the games:
 - brain-even/calc/gcd/progression/prime.  
@@ -35,14 +35,14 @@ this command will download the project and install it.
 ---
 ### *Examples*
 - how brain-even works:  
-![](https://github.com/spacewalrus73/Gifs/blob/master/even.gif)
+![](https://github.com/spacewalrus73/Gifs/blob/master/gif_1prj/even.gif)
 - how brain-calc works:  
-![](https://github.com/spacewalrus73/Gifs/blob/master/calc.gif)
+![](https://github.com/spacewalrus73/Gifs/blob/master/gif_1prj/calc.gif)
 - how brain-gcd works:  
-![](https://github.com/spacewalrus73/Gifs/blob/master/gcd.gif)
+![](https://github.com/spacewalrus73/Gifs/blob/master/gif_1prj/gcd.gif)
 - how brain-progression works:  
-![](https://github.com/spacewalrus73/Gifs/blob/master/progress.gif)
+![](https://github.com/spacewalrus73/Gifs/blob/master/gif_1prj/progress.gif)
 - how brain-prime works:  
-![](https://github.com/spacewalrus73/Gifs/blob/master/prime.gif)
+![](https://github.com/spacewalrus73/Gifs/blob/master/gif_1prj/prime.gif)
 
 
